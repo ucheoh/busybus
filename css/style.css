@@ -56,7 +56,6 @@
     float: right;
     display: inline-block;
     color: #C7C7CC;
-    rotation: 90deg;
     font-size: 11px;
     padding: 15px 10px 15px 0px;
   }
@@ -68,7 +67,6 @@
     transform: translate(0%, 50%);
     color: #C7C7CC;
     font-size: 11px;
-    transform: translate(0%, 50%);
   }
 
   nav {
@@ -91,6 +89,7 @@
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-color: #fff;
+    z-index: 1;
   }
 
   .navbar-bottom {
@@ -103,6 +102,7 @@
     position: fixed;
     bottom: 0;
     background-color: rgba(255, 0, 0, 0);
+    
   }
 
   .header {
@@ -113,10 +113,13 @@
     height: 85px;
     display: inline-block;
     box-shadow: 0 3px 2px 0px rgb(199, 199, 199);
+    z-index: 2;
+    position: absolute;
   }
 
   .main-nav {
     position: fixed;
+    z-index: 10000;
   }
   
   body {
