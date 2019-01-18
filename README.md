@@ -1,2 +1,2 @@
-# css-exercise-four
-Exercise focused on the usage of media queries
+# busybus
+This code is for the public transportation app Busybus. 
