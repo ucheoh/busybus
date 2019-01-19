@@ -144,7 +144,7 @@
     
   }
 
-  .header {
+  header {
     padding: 0px;
     margin: 0px;
     background-color: #fff;
@@ -260,10 +260,6 @@
     font-weight: 200;
     padding: 10px 15px 15px 0px;
   }
-
-
-
-
   
   /* Makes 'min' not bold */
   .notbold {
